@@ -69,3 +69,14 @@ temp = undefined;
 
 console.log('a = '+a);
 console.log('b = '+b);
+
+// if else if statement....
+let hour = 21;
+if(hour >=6  && hour <12 ){
+    console.log('Good morning');
+}else if(hour>=12 && hour<20){
+    console.log('Good afternoon');
+}else{
+    console.log('Good evening');
+}
+
